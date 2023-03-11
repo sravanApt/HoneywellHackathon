@@ -1,13 +1,12 @@
 import {
   Routes,
-  Switch,
   Route,
   Link
 } from "react-router-dom";
 import './App.css';
 import Home from './components/Home';
 import SeatBooking from './components/SeatBooking';
-import Personaldetails from "./components/PersonalDetails";
+import PersonalDetails from "./components/PersonalDetails";
 
 function App() {
   return (
