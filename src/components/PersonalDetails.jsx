@@ -9,7 +9,8 @@ function Personaldetails() {
     return (
         <div className="content">
             <InputComponent label="First Name" />
-            <InputComponent label="First Name" />
+            <InputComponent label="Last Name" />
+            <InputComponent label="Age" />
             <PrimaryButton text="Submit" onClick={handleSubmit} />
         </div>
     );
