@@ -7,6 +7,7 @@ import {
 import './App.css';
 import Home from './components/Home';
 import SeatBooking from './components/SeatBooking';
+import Personaldetails from "./components/PersonalDetails";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/book" element={<SeatBooking />} />
+        <Route exact path="/details" element={<PersonalDetails />} />
       </Routes>
     </div>
   );
